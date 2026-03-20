@@ -1,0 +1,36 @@
+{
+  "name": "smart-canteen",
+  "version": "1.0.0",
+  "description": "A modern full-stack Canteen Management System featuring real-time stock locking, 15-minute auto-cancellation via cron jobs, and a sleek React Admin Dashboard.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix api\" \"npm run dev --prefix client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tfxpanda0p/smart-canteen-cron.git"
+  },
+  "keywords": [
+    "react",
+    "nodejs",
+    "mongodb",
+    "express",
+    "canteen-management",
+    "cron-jobs",
+    "fullstack",
+    "inventory-management",
+    "framer-motion",
+    "jwt-authentication"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tfxpanda0p/smart-canteen-cron/issues"
+  },
+  "homepage": "https://github.com/tfxpanda0p/smart-canteen-cron#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
